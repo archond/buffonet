@@ -1,0 +1,89 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+ */
+
+@import url("/css/content.css");
+
+
+body {
+}
+
+a {
+}
+
+a[href="http://editor.froala.com"] {
+	position: absolute !important;
+	left: -9999px !important;
+}
+
+
+.daterange.form-control[readonly] {cursor: default !important;}
+
+.nav.nav-tabs > li > a {
+	background-color: #ffffff;;
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+}
+
+.nav.nav-tabs > li > a:hover{
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+.nav.nav-tabs > li.active > a {
+	background-color: white;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+footer.main-footer.fixed {
+	z-index: 5 !important;
+}
+html .select2-container{
+	width: 100% !important;
+}
+
+.ms-container {
+	width: 100% !important;
+}
+
+.file-input-styled:first-child{
+	/*background-color: red !important;*/
+}
+
+.col-sm-10 > div.image-container:nth-of-type(2) .media-image-list {
+	border: 2px solid #ABC9FF;
+}
+
+.text-core .text-wrap .text-tags {
+	top: 5px;
+}
+.text-core .text-wrap,
+.text-core .text-wrap > input {
+	width: 100% !important;
+}
+
+
+.input-for-tags {
+	display: block;
+	width: 100%;
+	/*height: 32px;*/
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #e4e4e4;
+	border-radius: 0px;
+	/*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);*/
+	/*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);*/
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
