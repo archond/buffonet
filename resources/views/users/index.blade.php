@@ -12,7 +12,7 @@
                     {{--<i class="fa fa-plus"></i>--}}
                 {{--</a>--}}
             </div>
-
+						{{!! $id = Auth::user()->id; !!}}
             <div class="panel-body">
                 <div class="text-center">{!! $users->render() !!}</div>
                 <div class="table-responsive" data-pattern="priority-columns" data-focus-btn-icon="fa-asterisk" data-sticky-table-header="true" data-add-display-all-btn="true"
