@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2016-06-22 14:49+0300\n"
-"PO-Revision-Date: 2016-06-29 12:02+0300\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
-"Language: lv_LV\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-06-22 14:49+0300\n"
+"PO-Revision-Date: 2016-06-29 12:02+0300\n"
+"Language: lv_LV\n"
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-KeywordsList: _;__;gettext;_n:1,2;ngettext:1,2\n"
 "X-Poedit-Basepath: ../../../../../app\n"
@@ -297,13 +298,11 @@ msgstr "Meklēt"
 
 #: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:31
 msgid "What.. press enter to accept typed string"
-msgstr ""
-"Ko..                           -la apsstiprināju, jānospiež \"ENTER\"-"
+msgstr "Ko..                           -la apsstiprināju, jānospiež \"ENTER\"-"
 
 #: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:57
 msgid "Kur…"
-msgstr ""
-"Kur…                           -ievadiet atrašanās vietu \"Rīga\"-"
+msgstr "Kur…                           -ievadiet atrašanās vietu \"Rīga\"-"
 
 #: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:66
 msgid "Show on Map?"
@@ -513,9 +512,7 @@ msgstr "Valsts"
 
 #: ../storage/framework/messages/40b279478509f837f984538d30c4994817dce001.php.php:182
 #: Http/Controllers/MainobjectController.php:182
-msgid ""
-"Phone number is used in on or more sub-objects. Main object is ctreated "
-"successfully!"
+msgid "Phone number is used in on or more sub-objects. Main object is ctreated successfully!"
 msgstr ""
 "Telefona numurs tie izmantots vienā vai vairākos kontaktos. \n"
 "Jauns galvenais objekts tika izveidots veiksmīgi!"
@@ -569,9 +566,7 @@ msgstr "autors"
 #: ../storage/framework/messages/5c7fe6f90696c06359a42ed76c95f7328a909700.php.php:161
 #: Http/Controllers/StageController.php:161
 msgid "Stage has assigned ContactDetails, you cant delete Stage"
-msgstr ""
-"Bloku nevar dzēst, jo tam ir piesaistīta vismaz viena \"Kontaktu detaļa"
-"\""
+msgstr "Bloku nevar dzēst, jo tam ir piesaistīta vismaz viena \"Kontaktu detaļa\""
 
 #: ../storage/framework/messages/5c7fe6f90696c06359a42ed76c95f7328a909700.php.php:167
 #: Http/Controllers/StageController.php:167

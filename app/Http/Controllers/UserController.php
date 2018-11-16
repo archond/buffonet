@@ -102,13 +102,16 @@ class UserController extends Controller
 
         $user = User::find($id);
 
-        // if($user->is_admin == 1 ){
-        //     $user->is_admin = 0;
-        // } else{
-        //     $user->is_admin = 1;
-        // }
-        // $user->save();
-
-        return redirect()->route('users.index')->with('success', true)->with('form_message', _('Users admin role is changed successfully'));
+        if($user->is_admin == 2 ){
+            $user->is_admin = 0;
+        } else{
+            $user->is_admin = 2;
+        }
+        $user->save();
+				//
+				// if(is_null($user->is_admin)){
+				// 		$user->is_admin = 2;
+				// }
+        return redirect()->route('users.index')->with('success', true)->with('form_message', _('Moderator is role changed success'));
     }
 }

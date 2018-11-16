@@ -66,6 +66,11 @@
                 <i class="fa fa-users "></i> <span class="title"><?=_('Users')?></span>
             </a>
         </li>
+				<li @if(Route::currentRouteName() == 'trans') class='active' @endif style="background-color:">
+            <a href="{{ URL::route('trans') }}">
+                <i class="fa fa-university "></i> <span class="title"><?=_('Users')?></span>
+            </a>
+        </li>
 
 
 

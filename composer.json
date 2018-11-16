@@ -13,7 +13,11 @@
         "guzzlehttp/guzzle": "~5.3|~6.0",
         "intervention/image": "^2.3",
         "intervention/imagecache": "^2.3",
-        "xinax/laravel-gettext": "3.1.x"
+        "xinax/laravel-gettext": "3.1.x",
+
+       "unjudder/poeditor-api-client": "dev-master",
+        "gettext/gettext": "^4.6"
+
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

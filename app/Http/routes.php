@@ -69,6 +69,9 @@ Route::group(['middleware' => ['web']], function ()
 
         Route::get('index', ['as' => 'index', 'uses' => 'HomeController@index']);
         Route::get('/', ['as' => 'home', 'uses' => 'ContactController@index']);
+				Route::get('trans', ['as' => 'trans', 'uses' => 'HomeController@trans']);
+				Route::post('trans', ['as' => 'trans', 'uses' => 'HomeController@AddTrans']);
+				Route::post('transUpdate', ['as' => 'transUpdate', 'uses' => 'HomeController@updateTrans']);
 
         Route::get('contacts/create-request', ['as' => 'contacts.create-request', 'uses' => 'RequestController@create']);
 
@@ -114,8 +117,8 @@ Route::group(['middleware' => ['web']], function ()
 
 
         Route::resource('ratings', 'RatingController');
-        
-        
+
+
         Route::post('rating/ask-for-rating', ['as' => 'rating.ask-for-rating', 'uses' => 'RatingController@askForRating']);
         Route::get('rating/ask-for-rating/success', ['as' => 'rating.ask-for-rating.success', 'uses' => 'RatingController@askForRatingSuccess']);
 
@@ -155,5 +158,3 @@ Route::group(['middleware' => ['web']], function ()
 
 
 });
-
-
