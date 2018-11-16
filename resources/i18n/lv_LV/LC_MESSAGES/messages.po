@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2016-06-22 14:49+0300\n"
+"PO-Revision-Date: 2016-06-29 12:02+0300\n"
+"Last-Translator: James Translator <james@translations.colm>\n"
+"Language-Team: James Translator <james@translations.colm>\n"
+"Language: lv_LV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;__;gettext;_n:1,2;ngettext:1,2\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http/Controllers\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: Console/Commands\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+
+#: ../resources/views/contacts/edit.blade.php:7
+#: ../storage/framework/messages/cf40c1f3fe16f78548b31780a68b4616e214200c.php.php:5
+msgid "Edit Contact"
+msgstr "Rediģēt kontaktu"
+
+#: ../resources/views/contacts/form.blade.php:52
+#: ../storage/framework/messages/2fb70d607d1baf8874c9b8c4d6f5618d02a7b114.php.php:52
+msgid "Base info"
+msgstr "Pamatinformācija"
+
+#: ../resources/views/contacts/index.blade.php:100
+#: ../resources/views/includes/nav-bar.blade.php:17
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:103
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:17
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: ../resources/views/contacts/index.blade.php:165
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:174
+msgid "Filter data"
+msgstr "Filtrēšanas dati"
+
+#: ../resources/views/emails/request.blade.php:1
+#: ../resources/views/emails/request/ask-for-rating.blade.php:1
+#: ../storage/framework/messages/b3ba2bc7a6c790bc911ec50498c7c26dfeff558d.php.php:1
+#: ../storage/framework/messages/bcd13dbcb4851c947a88a951ac703ef04074c7ec.php.php:1
+msgid "Hi"
+msgstr "Labdien"
+
+#: ../resources/views/emails/request.blade.php:20
+#: ../resources/views/emails/request/ask-for-rating.blade.php:12
+#: ../storage/framework/messages/b3ba2bc7a6c790bc911ec50498c7c26dfeff558d.php.php:13
+#: ../storage/framework/messages/bcd13dbcb4851c947a88a951ac703ef04074c7ec.php.php:21
+msgid "Thank you"
+msgstr "Paldies"
+
+#: ../resources/views/emails/request/ask-for-rating.blade.php:5
+#: ../storage/framework/messages/b3ba2bc7a6c790bc911ec50498c7c26dfeff558d.php.php:5
+msgid "Please be so kind and rate following object"
+msgstr "Lūdzu sniedziet savu vērtējumu sekojošam objektam"
+
+#: ../resources/views/emails/request/ask-for-rating.blade.php:7
+#: ../storage/framework/messages/b3ba2bc7a6c790bc911ec50498c7c26dfeff558d.php.php:7
+msgid "Please"
+msgstr "Lūdzu"
+
+#: ../resources/views/emails/request/ask-for-rating.blade.php:7
+#: ../storage/framework/messages/b3ba2bc7a6c790bc911ec50498c7c26dfeff558d.php.php:7
+msgid "click on this link"
+msgstr "Klikšķiniet uz šīs saites"
+
+#: ../resources/views/includes/nav-bar.blade.php:10
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:10
+msgid "Main Objects"
+msgstr "Galvenie objekti"
+
+#: ../resources/views/includes/nav-bar.blade.php:22
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:22
+msgid "Main object - create"
+msgstr "Pievienot objektu"
+
+#: ../resources/views/includes/nav-bar.blade.php:29
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:29
+msgid "Categories"
+msgstr "Kategorijas"
+
+#: ../resources/views/includes/nav-bar.blade.php:36
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:36
+#: ../storage/framework/messages/87e75b1a927ac1dc780fe3fc563bffcc5ff90151.php.php:10
+msgid "Countries"
+msgstr "Valstis"
+
+#: ../resources/views/includes/nav-bar.blade.php:42
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:42
+msgid "Cities"
+msgstr "Pilsētas"
+
+#: ../resources/views/includes/nav-bar.blade.php:48
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:48
+msgid "Requests"
+msgstr "Pieprasījumi"
+
+#: ../resources/views/includes/nav-bar.blade.php:54
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:314
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:10
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:54
+msgid "Ratings"
+msgstr "Reitnigi"
+
+#: ../resources/views/includes/nav-bar.blade.php:60
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:60
+msgid "ContactDetails"
+msgstr "Kontactu detaļas"
+
+#: ../resources/views/includes/nav-bar.blade.php:71
+#: ../storage/framework/messages/709e5da333b3a37b3a0f5c547c830f7b634430b1.php.php:71
+#: ../storage/framework/messages/e85abce44318b00343640ccce8982027eeceb23b.php.php:10
+msgid "Stages"
+msgstr "Bloki"
+
+#: ../storage/framework/messages/08e3267fbdfaf8aa28121a2f70de7d8090d1b820.php.php:23
+msgid "Select country"
+msgstr "Izvēlēties valsti"
+
+#: ../storage/framework/messages/08e3267fbdfaf8aa28121a2f70de7d8090d1b820.php.php:33
+msgid "City name"
+msgstr "Pilsētas nosaukums"
+
+#: ../storage/framework/messages/08e3267fbdfaf8aa28121a2f70de7d8090d1b820.php.php:36
+msgid "Input City name"
+msgstr "Ievadiet pilsētas nosaukumu"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:20
+msgid "Average ratings"
+msgstr "Kopējāis reitings"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:25
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:189
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:286
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:39
+#: ../storage/framework/messages/b13fe7b1ac4149ba8bfa2b4f02336b227499fc38.php.php:89
+msgid "Type"
+msgstr "Tips"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:39
+msgid "Name"
+msgstr "Nosaukums"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:52
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:88
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:30
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:33
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:117
+msgid "Phone"
+msgstr "Tālrunis"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:69
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:61
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:56
+msgid "Accurancy"
+msgstr "Precizitāte, iekļaušanās termiņos"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:84
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:72
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:65
+msgid "Quality"
+msgstr "Kvalitāte"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:98
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:84
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:74
+msgid "Communication"
+msgstr "Komunikācija, saskarsme"
+
+#: ../storage/framework/messages/0d1b1ad68fad67698891890e32cdd496a7cb3ef0.php.php:114
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:52
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:83
+msgid "Review"
+msgstr "Recenzija"
+
+#: ../storage/framework/messages/0d542aa3797d6b7d57957bc983dfafadbeecde9a.php.php:22
+#: ../storage/framework/messages/85affe8eb6aa30abd05a3a538ab273247707753e.php.php:24
+msgid "phone format +37100000000"
+msgstr "Ievadiet Tālruni!      - Tālruņa formāts 29000000"
+
+#: ../storage/framework/messages/174d035ab10250a236394ec8286aa870d58f6290.php.php:6
+#: ../storage/framework/messages/63cc73f8c4f0db8c3e2cce7558dccdfafc3918cb.php.php:6
+msgid "Rating Form"
+msgstr "Vērtēšanas forma"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:37
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:301
+msgid "Title"
+msgstr "Nosaukums"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:74
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:40
+msgid "Language"
+msgstr "Valoda"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:107
+msgid "e-mail"
+msgstr "e-pasts"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:127
+msgid "Address"
+msgstr "Adrese"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:141
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:195
+#: ../storage/framework/messages/5e7f559f1e28ff7cfbf8271da0a84746d0ab875b.php.php:3
+msgid "Category"
+msgstr "Kategorija"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:199
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:645
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:214
+#: ../storage/framework/messages/c8d0362bd76de9a4d452d5230c5f4bb1c9eaf68f.php.php:72
+msgid "Confirmation"
+msgstr "Apstiprinājums"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:203
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:649
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:218
+#: ../storage/framework/messages/c8d0362bd76de9a4d452d5230c5f4bb1c9eaf68f.php.php:76
+msgid "Are you sure to delete this item"
+msgstr "Vai tiešām vēlaties Dzēst?"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:207
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:653
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:222
+#: ../storage/framework/messages/c8d0362bd76de9a4d452d5230c5f4bb1c9eaf68f.php.php:80
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../storage/framework/messages/181b3a92a5ba74cb56642dc1273c2b9e3503a622.php.php:209
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:654
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:223
+#: ../storage/framework/messages/c8d0362bd76de9a4d452d5230c5f4bb1c9eaf68f.php.php:82
+msgid "Delete"
+msgstr "Dzēst"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:13
+msgid "Requests list"
+msgstr "Pieprasījumu saraksts"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:37
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:229
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:31
+msgid "Clear filters"
+msgstr "Atcelt filtrus"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:42
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:35
+msgid "id"
+msgstr "id"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:51
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:59
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:59
+msgid "email"
+msgstr "e-pasts"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:69
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:77
+msgid "contact's title"
+msgstr "Kontakta nosaukums"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:84
+msgid "sent Date"
+msgstr "Nosūtīšanas datums"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:90
+msgid "complete Date"
+msgstr "Aizpildīšanas datums"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:109
+msgid "Admin processed"
+msgstr "Administratora apstrāde"
+
+#: ../storage/framework/messages/1bb9818018d5fdfa458d95bdbb5e20cdf00d724b.php.php:125
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:261
+#: ../storage/framework/messages/3c725c00519c447fb4a250747c7e9daddbdc7ee3.php.php:27
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:77
+#: ../storage/framework/messages/87e75b1a927ac1dc780fe3fc563bffcc5ff90151.php.php:44
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:95
+#: ../storage/framework/messages/e835c67144865ef12fddeadff1d1ef5f7f3d1ba9.php.php:26
+#: ../storage/framework/messages/e85abce44318b00343640ccce8982027eeceb23b.php.php:34
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:49
+msgid "Action"
+msgstr "Rīki"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:12
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:63
+msgid "Search"
+msgstr "Meklēt"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:31
+msgid "What.. press enter to accept typed string"
+msgstr ""
+"Ko..                           -la apsstiprināju, jānospiež \"ENTER\"-"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:57
+msgid "Kur…"
+msgstr ""
+"Kur…                           -ievadiet atrašanās vietu \"Rīga\"-"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:66
+msgid "Show on Map?"
+msgstr "Karte"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:114
+msgid "Ask for Rating"
+msgstr "Reitinga pieprasījums"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:119
+msgid "Request contact info"
+msgstr "Datu aktualizēšana"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:124
+msgid "Get Emails"
+msgstr "Iegūt e-pastus"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:129
+msgid "Get Phones"
+msgstr "Iegūt telefonu numurus"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:143
+msgid "Data"
+msgstr "Dati"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:180
+msgid "What"
+msgstr "Ko"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:183
+msgid "Where"
+msgstr "Kur"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:186
+msgid "Tags:"
+msgstr "Atslēgas vārdi:"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:207
+msgid "Show on map"
+msgstr "Parādīt kartē"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:232
+msgid "filter by type"
+msgstr "filtrēt pēc tipa"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:246
+msgid "search by tags..."
+msgstr "meklēt pēc atslēgas vārda"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:278
+msgid "Date"
+msgstr "Datums"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:283
+msgid "ID"
+msgstr "ID"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:291
+msgid "picture"
+msgstr "attēls"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:380
+#: ../storage/framework/messages/b13fe7b1ac4149ba8bfa2b4f02336b227499fc38.php.php:89
+msgid "Type is not set"
+msgstr "Tips nav uzstādīts"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:455
+msgid "Categpries is not set"
+msgstr "Kategorija nav piešķirta"
+
+#: ../storage/framework/messages/2032b85e8a5f65c187083ca34865a9631268ba66.php.php:545
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:70
+msgid "Loading...."
+msgstr "Ielādē...."
+
+#: ../storage/framework/messages/229ee435704b36a2364d36437eff58f26f462951.php.php:5
+msgid "Send mail to Contact"
+msgstr "Nosūtīt e-pastu objektam"
+
+#: ../storage/framework/messages/229ee435704b36a2364d36437eff58f26f462951.php.php:16
+#: ../storage/framework/messages/47a5da19e288a21f8ca12d25ce3598b754c67ce3.php.php:3
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:44
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:28
+msgid "Email"
+msgstr "e-pasts"
+
+#: ../storage/framework/messages/229ee435704b36a2364d36437eff58f26f462951.php.php:23
+msgid "Subject"
+msgstr "Priekšmets"
+
+#: ../storage/framework/messages/229ee435704b36a2364d36437eff58f26f462951.php.php:30
+#: ../storage/framework/messages/2364c545ce1cdcf208a38bdb1a34bc91e7c0396b.php.php:37
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:46
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:35
+msgid "Message"
+msgstr "Ziņojums"
+
+#: ../storage/framework/messages/229ee435704b36a2364d36437eff58f26f462951.php.php:36
+msgid "Send message"
+msgstr "Nosūtīt ziņojumu"
+
+#: ../storage/framework/messages/2364c545ce1cdcf208a38bdb1a34bc91e7c0396b.php.php:12
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:12
+msgid "Request for contact:"
+msgstr "Pieprasījums pēc kontaktiem:"
+
+#: ../storage/framework/messages/2364c545ce1cdcf208a38bdb1a34bc91e7c0396b.php.php:15
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:15
+msgid "Title is missing"
+msgstr "Nav piešķirts Nosaukums"
+
+#: ../storage/framework/messages/2364c545ce1cdcf208a38bdb1a34bc91e7c0396b.php.php:26
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:35
+msgid "stages"
+msgstr "bloki"
+
+#: ../storage/framework/messages/2364c545ce1cdcf208a38bdb1a34bc91e7c0396b.php.php:40
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:49
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:38
+msgid "Input message"
+msgstr "Ziņojuma teksts"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:144
+#: Http/Controllers/RequestController.php:144
+msgid "All"
+msgstr "Visi"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:145
+#: Http/Controllers/RequestController.php:145
+msgid "Waiting for client"
+msgstr "Gaida uz klientu"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:146
+#: Http/Controllers/RequestController.php:146
+msgid "Waiting for admin"
+msgstr "Gaida uz adminu"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:147
+#: Http/Controllers/RequestController.php:147
+msgid "Confirmed by admin"
+msgstr "Admins ir apstiprinājis"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:148
+#: Http/Controllers/RequestController.php:148
+msgid "Denied by admin"
+msgstr "Admins ir noraidījis"
+
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:384
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:432
+#: ../storage/framework/messages/2393a540303c0f976407e448bb646765f28d4143.php.php:465
+#: Http/Controllers/RequestController.php:384
+#: Http/Controllers/RequestController.php:432
+#: Http/Controllers/RequestController.php:465
+msgid "Request for your contact info"
+msgstr "Pieprasījums pēc kontaktinformācijas"
+
+#: ../storage/framework/messages/2993442ca9dbbba2703fd4ccd8b72cbfb3bdafa3.php.php:5
+msgid "Compare receved data with existing"
+msgstr "Salīdzināt saņemtos datus ar eksistējošajiem datiem"
+
+#: ../storage/framework/messages/2adffa771ac0703f76d9842e799dbc1309b3b828.php.php:5
+#: ../storage/framework/messages/9d55a69edcd8f80e2dbc7ce4c97a0789ddc053bc.php.php:5
+msgid "Add stages to request"
+msgstr "Pievienot pieprasījumam \"blokus\""
+
+#: ../storage/framework/messages/2adffa771ac0703f76d9842e799dbc1309b3b828.php.php:19
+#: ../storage/framework/messages/9d55a69edcd8f80e2dbc7ce4c97a0789ddc053bc.php.php:18
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:44
+msgid "Send request"
+msgstr "Nosūtīt pieprasījumu"
+
+#: ../storage/framework/messages/2b8ab3f3e222104760c0e96b650a6b975f24a0a9.php.php:3
+#: ../storage/framework/messages/2b8ab3f3e222104760c0e96b650a6b975f24a0a9.php.php:39
+msgid "Select country.."
+msgstr "Izvēlēties valsti.."
+
+#: ../storage/framework/messages/2b8ab3f3e222104760c0e96b650a6b975f24a0a9.php.php:5
+#: ../storage/framework/messages/2b8ab3f3e222104760c0e96b650a6b975f24a0a9.php.php:41
+msgid "Select city.."
+msgstr "Izvēlēties pilsētu.."
+
+#: ../storage/framework/messages/2fb70d607d1baf8874c9b8c4d6f5618d02a7b114.php.php:332
+msgid "Delete?"
+msgstr "Dzēst ?"
+
+#: ../storage/framework/messages/3801ae227f983b3a83f2052c1ed2ea4ce8babc16.php.php:10
+msgid "Input comment here"
+msgstr "Ievadiet komantāru"
+
+#: ../storage/framework/messages/3801ae227f983b3a83f2052c1ed2ea4ce8babc16.php.php:12
+msgid "Add comment"
+msgstr "Pievienot komentāru"
+
+#: ../storage/framework/messages/3c725c00519c447fb4a250747c7e9daddbdc7ee3.php.php:8
+msgid "List of Cities"
+msgstr "Pilsētu saraksts"
+
+#: ../storage/framework/messages/3c725c00519c447fb4a250747c7e9daddbdc7ee3.php.php:24
+msgid "City"
+msgstr "Pilsēta"
+
+#: ../storage/framework/messages/3c725c00519c447fb4a250747c7e9daddbdc7ee3.php.php:25
+#: ../storage/framework/messages/87e75b1a927ac1dc780fe3fc563bffcc5ff90151.php.php:27
+#: ../storage/framework/messages/e835c67144865ef12fddeadff1d1ef5f7f3d1ba9.php.php:24
+msgid "Country"
+msgstr "Valsts"
+
+#: ../storage/framework/messages/40b279478509f837f984538d30c4994817dce001.php.php:182
+#: Http/Controllers/MainobjectController.php:182
+msgid ""
+"Phone number is used in on or more sub-objects. Main object is ctreated "
+"successfully!"
+msgstr ""
+"Telefona numurs tie izmantots vienā vai vairākos kontaktos. \n"
+"Jauns galvenais objekts tika izveidots veiksmīgi!"
+
+#: ../storage/framework/messages/40b279478509f837f984538d30c4994817dce001.php.php:186
+#: Http/Controllers/MainobjectController.php:186
+msgid "Main object is ctreated successfully!"
+msgstr "Galvenais objekts tika izveidots veiksmīgi!"
+
+#: ../storage/framework/messages/46294f45fb2fa3fbe0db9e4e71db9815f0de1e91.php.php:156
+msgid "Go Back"
+msgstr "Atgriezties atpakaļ"
+
+#: ../storage/framework/messages/47a5da19e288a21f8ca12d25ce3598b754c67ce3.php.php:12
+msgid "Sentdate"
+msgstr "Nosūtīšanas datums"
+
+#: ../storage/framework/messages/47a5da19e288a21f8ca12d25ce3598b754c67ce3.php.php:24
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:91
+msgid "Complete date"
+msgstr "Izpildes datums"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:41
+msgid "Search by contact title"
+msgstr "Meklēt pēc kontakta nosaukuma"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:48
+msgid "contact"
+msgstr "kontakts"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:52
+msgid "Search by email"
+msgstr "Meklēt pēc e-pasta"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:62
+msgid "sent"
+msgstr "nosūtīts"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:69
+msgid "complete"
+msgstr "izpildīts"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:74
+msgid "language"
+msgstr "valoda"
+
+#: ../storage/framework/messages/4e2cf26662447491c64923f898866a8e89d3024c.php.php:75
+msgid "author"
+msgstr "autors"
+
+#: ../storage/framework/messages/5c7fe6f90696c06359a42ed76c95f7328a909700.php.php:161
+#: Http/Controllers/StageController.php:161
+msgid "Stage has assigned ContactDetails, you cant delete Stage"
+msgstr ""
+"Bloku nevar dzēst, jo tam ir piesaistīta vismaz viena \"Kontaktu detaļa"
+"\""
+
+#: ../storage/framework/messages/5c7fe6f90696c06359a42ed76c95f7328a909700.php.php:167
+#: Http/Controllers/StageController.php:167
+msgid "Stage is deleted successfully"
+msgstr "Bloks ir veiksmīgi izdzēsts"
+
+#: ../storage/framework/messages/63c4e01da967407ccebcef6bb519ffafdd2d24e1.php.php:109
+msgid "At least one Category of 4th level is required"
+msgstr "Jāizvēlas vismaz viena ceturtā līmeņa kategorija"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:104
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:177
+#: Http/Controllers/RatingController.php:104
+#: Http/Controllers/RatingController.php:177
+msgid "Language is not set"
+msgstr "Valoda nav uzstādīta"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:216
+#: Http/Controllers/RatingController.php:216
+msgid "Rating is deleted successfully"
+msgstr "Reitings ir veiksmīgi izdzēsts"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:224
+#: Http/Controllers/RatingController.php:224
+msgid "Rating is restored successfully"
+msgstr "Reitings tika veiksmīgi atjaunots"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:284
+#: Http/Controllers/RatingController.php:284
+msgid "No title"
+msgstr "Bez nosaukuma"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:295
+#: Http/Controllers/RatingController.php:295
+msgid "Request ask to rate object(s)"
+msgstr "Pieprasījums sniegt objekta vērtējumu"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:305
+#: Http/Controllers/RatingController.php:305
+msgid "Rating request is sent successfully"
+msgstr "Vērtējuma pieprasījums tika veiksmīgi nosūtīts"
+
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:359
+#: ../storage/framework/messages/69e0eee76be51d339d6dc817a703c8c7787c1681.php.php:430
+#: Http/Controllers/RatingController.php:359
+#: Http/Controllers/RatingController.php:430
+msgid "Rating data is sent successfully, thank you"
+msgstr ""
+"Vērtējuma dati tika veiksmīgi nosūtīti!\n"
+"Paldies, par sniegto vērtējumu!"
+
+#: ../storage/framework/messages/759eddab54dec765961bd04c8d605f7955f26293.php.php:107
+msgid "Stage do not have any contact detail"
+msgstr "Blokam nav piesaistīta neviena Kontakta detaļa"
+
+#: ../storage/framework/messages/771d1733640297b95bac34ffe700246c15932948.php.php:5
+msgid "Create new Stage"
+msgstr "Pievienot juanu Bloku"
+
+#: ../storage/framework/messages/78c81a5a89fcdca2dca52eeaec5678c23b82356a.php.php:5
+msgid "Edit City"
+msgstr "Rediģēt pilsētu"
+
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:21
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:48
+msgid "Author"
+msgstr "Autors"
+
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:24
+msgid "Author name"
+msgstr "Autora vārds"
+
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:42
+msgid "private person"
+msgstr "Privātpersona"
+
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:42
+msgid "legal person"
+msgstr "Juridiska persona"
+
+#: ../storage/framework/messages/794d41b7f77bd8090361ca1cf2ad956529914cdb.php.php:55
+msgid "review text here"
+msgstr "Recenzijas teksts"
+
+#: ../storage/framework/messages/7e8b4fa8a5294caed68769338fb3b8e7c128b40c.php.php:5
+msgid "Create new City"
+msgstr "Pievienot jaunu pilsētu"
+
+#: ../storage/framework/messages/8aa53982ddaab4d50272a27749e612ef10b111cd.php.php:118
+msgid "Created at"
+msgstr "Izveidošanas datums"
+
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:21
+msgid "to:"
+msgstr "Kam:"
+
+#: ../storage/framework/messages/a2618f8060af374d1c279e356c1a7687a1b116bc.php.php:24
+msgid "Input emails"
+msgstr "Ievadīt e-pastu"
+
+#: ../storage/framework/messages/a83f4abbe8932d11912da73ceed9c207374fda8d.php.php:5
+msgid "Create new Country"
+msgstr "Pievienot jaunu valsti"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:22
+msgid "Request to update contacts info"
+msgstr "Pieprasīt atjaunot/papildināt Objekta datus"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:24
+msgid "Send Mail to contact"
+msgstr "Nosūtīt e-pastu objektam"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:44
+msgid "Related objects"
+msgstr "Saistītie objekti"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:46
+msgid "Show / hide related contacts"
+msgstr "Parādīt / paslēpt saistītos objektus"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:50
+msgid "Related contacts"
+msgstr "Saistītie objekti"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:61
+msgid "Contact without title"
+msgstr "Objekts bez nosaukuma"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:72
+msgid "Contact do not have any related object"
+msgstr "Objektam nav citu saistīto objektu"
+
+#: ../storage/framework/messages/a9f3e0967eeb61226fd05f5ad555103eddceea4b.php.php:219
+msgid "Show / hide reviews"
+msgstr "Parādīt/ paslēpt vērtējumus"
+
+#: ../storage/framework/messages/b13fe7b1ac4149ba8bfa2b4f02336b227499fc38.php.php:135
+msgid "Close map"
+msgstr "Aizvērt karti"
+
+#: ../storage/framework/messages/c0d0b4cf45924ba51f5c924ea2aacab029e097a3.php.php:675
+#: Http/Controllers/ContactController.php:675
+msgid "option do nt exist or is deleted"
+msgstr "Opcija neeksistē vai ir izdzēsta"
+
+#: ../storage/framework/messages/c0d0b4cf45924ba51f5c924ea2aacab029e097a3.php.php:1064
+#: Http/Controllers/ContactController.php:1064
+msgid "Comment is added successfully"
+msgstr "Komentārs tika pievienots veiksmīgi!"
+
+#: ../storage/framework/messages/c0d0b4cf45924ba51f5c924ea2aacab029e097a3.php.php:1367
+#: Http/Controllers/ContactController.php:1367
+msgid "No subject"
+msgstr "Nav subjekta"
+
+#: ../storage/framework/messages/c0d0b4cf45924ba51f5c924ea2aacab029e097a3.php.php:1371
+#: Http/Controllers/ContactController.php:1371
+msgid "Message (mail) is sent successfully"
+msgstr "Ziņa (e-pasts) tika veiksmīgi nosūtīta!"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:10
+msgid "Rating"
+msgstr "Vērtējums"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:28
+msgid "Property"
+msgstr "Īpašība"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:29
+msgid "Value"
+msgstr "Vērtība"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:52
+msgid "Author phone"
+msgstr "Autora tālruņa numurs"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:87
+msgid "Request sent date"
+msgstr "Pieprasījuma nosūtīšanas datums"
+
+#: ../storage/framework/messages/c4458ba2345674b6e3366608ac5a39cf6d942047.php.php:100
+msgid "deleted"
+msgstr "Dzēsts"
+
+#: ../storage/framework/messages/c9c0f8e9ca4dfab61e8b9914e837595523db7424.php.php:5
+msgid "Edit Country"
+msgstr "Rediģēt valsti"
+
+#: ../storage/framework/messages/cd0feb381609fb2099a7ffa9da259f7539ecade5.php.php:5
+msgid "Create new Contact detail"
+msgstr "Pievienot jaunu Kontakta detaļu"
+
+#: ../storage/framework/messages/d169cf9a59aed9049c9111fdc3564d567c944742.php.php:5
+msgid "Compare received data with existing"
+msgstr "Salīdzināt saņemtos datus ar eksistējošajiem datiem"
+
+#: ../storage/framework/messages/d169cf9a59aed9049c9111fdc3564d567c944742.php.php:97
+msgid "Save received data"
+msgstr "Saglabāt saņemto informāciju"
+
+#: ../storage/framework/messages/d169cf9a59aed9049c9111fdc3564d567c944742.php.php:100
+msgid "Reject received data"
+msgstr "Noraidīt saņemto informāciju"
+
+#: ../storage/framework/messages/d65ff18af4a716b9a17ab3fb58d6fe0035a2f540.php.php:212
+#: Http/Controllers/CategoryController.php:212
+msgid "Category is updated successfully!"
+msgstr "Kategorija ir veiksmīgi atjaunota"
+
+#: ../storage/framework/messages/d65ff18af4a716b9a17ab3fb58d6fe0035a2f540.php.php:230
+#: Http/Controllers/CategoryController.php:230
+msgid "Category is deleted successfully!"
+msgstr "Kategorija tika veiksmīgi izdzēsta"
+
+#: ../storage/framework/messages/e1d005c7c24aada07b6427dacece2f6beef778fa.php.php:5
+#: ../storage/framework/messages/e85abce44318b00343640ccce8982027eeceb23b.php.php:29
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:31
+msgid "Stage"
+msgstr "Bloks"
+
+#: ../storage/framework/messages/e835c67144865ef12fddeadff1d1ef5f7f3d1ba9.php.php:8
+msgid "Cities of"
+msgstr "Pilsētas, kuras ir valstī:"
+
+#: ../storage/framework/messages/e85abce44318b00343640ccce8982027eeceb23b.php.php:31
+msgid "Is Contact data stage"
+msgstr "Bloks"
+
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:5
+msgid "Send request to rate object(s)"
+msgstr "Sūtīt pieprasījumu novērtēt objektu(s)"
+
+#: ../storage/framework/messages/ee648d83a45e80986e3de51ee318c47f5b840e02.php.php:14
+msgid "Ask for rating following contacts"
+msgstr "Pieprasīt vērtējumu sekojošiem kontaktiem"
+
+#: ../storage/framework/messages/f7fd68abc769109b56a38f4fcdc876b2470b7be0.php.php:5
+msgid "Compare receved data wityh existing"
+msgstr "Salīdzināt saņemtos datus ar esošajiem datiem"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:11
+msgid "Contact Details"
+msgstr "Kontakta detaļas"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:26
+msgid "Contact Detail"
+msgstr "Kontakta detaļa"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:42
+msgid "Model"
+msgstr "Modelis"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:43
+msgid "is Translatable?"
+msgstr "Tulkojams ?"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:44
+msgid "is Colollectable?"
+msgstr "Uzkrājams ?"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:45
+msgid "is Uniq Value?"
+msgstr "Unikāla vērtība ?"
+
+#: ../storage/framework/messages/fbc5b10fa47fa7bf019096855276bd28c0b5790d.php.php:46
+msgid "is Searchable?"
+msgstr "Meklējams ?"
