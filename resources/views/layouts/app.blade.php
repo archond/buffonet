@@ -156,12 +156,12 @@
 
                 <li class="user-profile">
                     @if(Auth::check())
-                        <a href="{!! url('logout') !!}">
+                        <a href="{!! url(LaravelGettext::getLocaleLanguage().'/logout') !!}">
                             <i class="fa-lock"></i>
                             Logout
                         </a>
                     @else
-                        <a href="{!! url('login') !!}">
+                        <a href="{!! url(LaravelGettext::getLocaleLanguage().'/login') !!}">
                             <i class="fa-lock"></i>
                             Login
                         </a>

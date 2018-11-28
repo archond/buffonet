@@ -5,9 +5,9 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading">{!! __('User registration') !!}</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url(LaravelGettext::getLocaleLanguage().'/register') }}">
                         {!! csrf_field() !!}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
@@ -33,6 +33,32 @@
                                 @if ($errors->has('email'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+												<div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Phone</label>
+
+                            <div class="col-md-6">
+                                <input type="phone" class="form-control" name="phone" value="{{ old('phone') }}">
+
+                                @if ($errors->has('phone'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('phone') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+												<div class="form-group{{ $errors->has('language') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Language</label>
+
+                            <div class="col-md-6">
+                                <input type="language" class="form-control" name="language" value="{{ old('language') }}">
+
+                                @if ($errors->has('language'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('language') }}</strong>
                                     </span>
                                 @endif
                             </div>

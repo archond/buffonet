@@ -33,7 +33,7 @@ use App\Http\Models\Users;?>
             </div>
 						<div class="col-md-3">
                 <!-- Table Model 2 -->
-								<a href="{!! 'http://'.$_SERVER['HTTP_HOST'].'/'.LaravelGettext::getLocaleLanguage() .'/passwd' !!}" class="btn btn-default">
+								<a href="{!! 'http://'.$_SERVER['HTTP_HOST'].'/'.LaravelGettext::getLocaleLanguage() .'/changePassword' !!}" class="btn btn-default">
 						{{ _('Edit Password') }}
 								</a>
             </div>

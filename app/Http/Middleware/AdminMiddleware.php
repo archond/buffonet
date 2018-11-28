@@ -29,7 +29,7 @@ class AdminMiddleware
 					return $next($request);
 					// return redirect('/' . LaravelGettext::getLocaleLanguage() . '/login');
 				}else if (Auth::check() && Auth::user()->is_admin == null){
-					return redirect('/' . LaravelGettext::getLocaleLanguage() . '/contacts');
+					return redirect('/' . LaravelGettext::getLocaleLanguage() . '/contact');
 
 				}
             // return redirect('lv/no-admin')->with('warning', true)->with('form_message', _('You do not have admin rights to do any action here'));

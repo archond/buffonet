@@ -171,4 +171,10 @@ class UserController extends Controller
 			Users::editAddresses($request->all());
 			return Redirect::to('/'.LaravelGettext::getLocaleLanguage().'/addresses/');
 		}
+	public function showUserTerms(Request $request) {
+			// $page = $request->input('page');
+			// $id = Auth::user()->id;
+			// $data = Users::getContacts($id);
+			return view('users.TermsForm');
+	}
 }

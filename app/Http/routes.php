@@ -44,8 +44,8 @@ Route::group(['middleware' => ['web']], function ()
 		Route::post('addressesAdd', ['as' => 'addressesAdd', 'uses' => 'UserController@addUserAddresses']);
 		Route::get('terms', ['as' => 'terms', 'uses' => 'UserController@showUserTerms']);
 		Route::post('terms', ['as' => 'terms', 'uses' => 'UserController@editUserTerms']);
-		Route::get('passwd', ['as' => 'passwd', 'uses' => 'UserController@showUserPasswd']);
-		Route::post('passwd', ['as' => 'passwd', 'uses' => 'UserController@editUserPasswd']);
+		Route::get('changePassword',['as' => 'changePassword', 'uses' => 'ChangePasswordController@showChangePasswordForm']);
+		Route::post('changePassword',['as' => 'changePassword', 'uses' => 'ChangePasswordController@changePassword']);
 	});
     Route::get('/', function ()
     {

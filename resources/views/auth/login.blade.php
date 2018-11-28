@@ -9,7 +9,7 @@
                 <div class="panel-body">
 
 
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url(LaravelGettext::getLocaleLanguage().'/login') }}">
                         {!! csrf_field() !!}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -56,8 +56,8 @@
                                     <i class="fa fa-btn fa-sign-in"></i>Login
                                 </button>
 
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">{{_('Forgot Your Password?')}}</a>
-                                <a class="btn btn-link" href="{{ url('/register') }}">{{_('Register')}}</a>
+                                <a class="btn btn-link" href="{{ url(LaravelGettext::getLocaleLanguage().'/password/reset') }}">{{_('Forgot Your Password?')}}</a>
+                                <a class="btn btn-link" href="{{ url(LaravelGettext::getLocaleLanguage().'/register') }}">{{_('Register')}}</a>
                             </div>
                         </div>
                     </form>
