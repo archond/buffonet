@@ -34,20 +34,20 @@ class Language
         if (strpos($request->path(), '_debugbar') !== false) {
             return $next($request);
         }
-        // if (strpos($request->path(), 'imagecache') !== false) { 
+        // if (strpos($request->path(), 'imagecache') !== false) {
         //     return $next($request);
         // }
 
         if (strpos($request->path(), 'login') !== false) { 
-            return $next($request);  
+            return $next($request);
         }
 
-        if (strpos($request->path(), 'logout') !== false) { 
-            return $next($request);  
+        if (strpos($request->path(), 'logout') !== false) {
+            return $next($request);
         }
 
-        if (strpos($request->path(), 'register') !== false) { 
-            return $next($request);  
+        if (strpos($request->path(), 'register') !== false) {
+            return $next($request);
         }
 
         if (strpos($request->path(), 'reset') !== false) {
@@ -75,7 +75,7 @@ class Language
             return \App\Language::get();
         });
 
-        // dd($languages->pluck('abbr', 'abbr')->toArray()); 
+        // dd($languages->pluck('abbr', 'abbr')->toArray());
 
         if ( ! array_key_exists($locale, $languages->pluck('abbr', 'abbr')->toArray() ) ) {
 
@@ -87,7 +87,7 @@ class Language
 
 
             return redirect(implode('/', $segments));
-        } 
+        }
 
 
         $language = $languages->filter(function($lang) use($locale){

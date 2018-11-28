@@ -55,6 +55,7 @@
           type="text/css">
     <link rel="stylesheet" href="{{ URL::asset('admin-assets/lightbox2-master/src/css/lightbox.css') }}"
           type="text/css">
+	  <link rel="stylesheet" href="/style.css" />
 
 
     @yield('css')

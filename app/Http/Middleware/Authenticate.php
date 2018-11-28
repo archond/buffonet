@@ -24,7 +24,7 @@ class Authenticate
                 // $segments = $request->segments();
                 $segment = $request->segment(1);
 
-                return redirect()->guest($segment.'/login'); 
+                return redirect()->guest($segment.'/login');
             }
         }
 

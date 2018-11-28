@@ -15,6 +15,12 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+				\App\Http\Middleware\Language::class,
+				\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+				\Illuminate\Cookie\Middleware\EncryptCookies::class,
+				\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+				\Illuminate\Session\Middleware\StartSession::class,
+				\Illuminate\View\Middleware\ShareErrorsFromSession::class,
     ];
 
     /**
@@ -39,9 +45,9 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\Language::class,
         ],
 
-        'api' => [
-            'throttle:60,1',
-        ],
+        // 'api' => [
+        //     'throttle:60,1',
+        // ],
     ];
 
     /**
@@ -55,8 +61,7 @@ class Kernel extends HttpKernel
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-
+        // 'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'admin' => \App\Http\Middleware\AdminMiddleware::class,
     ];
 }

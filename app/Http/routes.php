@@ -31,20 +31,32 @@
 //{
 //
 //});
-
+// Route::get('front', 'frontController@home');
+// Route::post('front','frontController@home');
 Route::group(['middleware' => ['web']], function ()
 {
-
-
+	Route::group(['middleware' => ['auth'] ], function ()
+	{
+		Route::get('contact', ['as' => 'contact', 'uses' => 'UserController@showUserContact']);
+		Route::post('contactUpd', ['as' => 'contactUpd', 'uses' => 'UserController@editUserContact']);
+		Route::get('addresses', ['as' => 'addresses', 'uses' => 'UserController@showUserAddresses']);
+		Route::post('addressesUpd', ['as' => 'addressesUpd', 'uses' => 'UserController@editUserAddresses']);
+		Route::post('addressesAdd', ['as' => 'addressesAdd', 'uses' => 'UserController@addUserAddresses']);
+		Route::get('terms', ['as' => 'terms', 'uses' => 'UserController@showUserTerms']);
+		Route::post('terms', ['as' => 'terms', 'uses' => 'UserController@editUserTerms']);
+		Route::get('passwd', ['as' => 'passwd', 'uses' => 'UserController@showUserPasswd']);
+		Route::post('passwd', ['as' => 'passwd', 'uses' => 'UserController@editUserPasswd']);
+	});
     Route::get('/', function ()
     {
         return view('welcome');
     });
 
-    Route::get('no-admin', function ()
-    {
-        return view('auth.no-admin');
-    });
+
+    // Route::get('no-admin', function ()
+    // {
+    //     return view('auth.no-admin');
+    // });
 
     Route::get('cron/hourly', ['as' => 'cron.hourly', 'uses' => 'CronController@hourlyRun']);
 

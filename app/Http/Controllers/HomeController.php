@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Gettext\Translations;
+// include_once "libs/gettext/src/autoloader.php";
+// include_once "libs/cldr-to-gettext-plural-rules/src/autoloader.php";
 use Session;
 class HomeController extends Controller
 {
