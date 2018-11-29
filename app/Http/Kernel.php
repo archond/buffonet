@@ -38,16 +38,16 @@ class Kernel extends HttpKernel
 
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
-            \App\Http\Middleware\BeforeMiddleware::class,
+            // \App\Http\Middleware\BeforeMiddleware::class,
 
             \Xinax\LaravelGettext\Middleware\GettextMiddleware::class,
 
             \App\Http\Middleware\Language::class,
         ],
 
-        // 'api' => [
-        //     'throttle:60,1',
-        // ],
+        'api' => [
+            'throttle:60,1',
+        ],
     ];
 
     /**

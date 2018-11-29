@@ -92,7 +92,7 @@
 										{!! Form::submit(__('Save'), [
 										 'class' => 'btn btn-primary',
 										]) !!}
-										<a href="{!! $_SERVER['REMOTE_ADDR'] !!}" class="btn btn-default">
+										<a href="{!! 'http://'.$_SERVER['HTTP_HOST'].'/'.LaravelGettext::getLocaleLanguage() .'/contact' !!}" class="btn btn-default">
 										 {{ __('Cancel') }}
 										</a>
 										</div>

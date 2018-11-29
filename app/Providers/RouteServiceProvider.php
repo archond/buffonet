@@ -49,7 +49,7 @@ class RouteServiceProvider extends ServiceProvider
         }
 
         $router->group(['namespace' => $this->namespace, 'prefix' => $locale], function ($router) {
-            require app_path('Http/routes.php');  
+            require app_path('Http/routes.php');
         });
 
 

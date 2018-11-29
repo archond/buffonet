@@ -1,40 +1,14 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Routes File
-|--------------------------------------------------------------------------
-|
-| Here is where you will register all of the routes in an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
-
-
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| This route group applies the "web" middleware group to every route
-| it contains. The "web" middleware group is defined in your HTTP
-| kernel and includes session state, CSRF protection, and more.
-|
-*/
-
-// dd(Request::segment(1));
-
-
-
-//Route::group(['middleware' => ['web']], function ()
-//{
-//
-//});
-// Route::get('front', 'frontController@home');
-// Route::post('front','frontController@home');
+Route::get('front', 'frontController@home');
+Route::post('front','frontController@home');
+Route::get('/', function ()
+{
+		return view('welcome');
+});
 Route::group(['middleware' => ['web']], function ()
 {
+	Route::auth();
 	Route::group(['middleware' => ['auth'] ], function ()
 	{
 		Route::get('contact', ['as' => 'contact', 'uses' => 'UserController@showUserContact']);
@@ -47,10 +21,7 @@ Route::group(['middleware' => ['web']], function ()
 		Route::get('changePassword',['as' => 'changePassword', 'uses' => 'ChangePasswordController@showChangePasswordForm']);
 		Route::post('changePassword',['as' => 'changePassword', 'uses' => 'ChangePasswordController@changePassword']);
 	});
-    Route::get('/', function ()
-    {
-        return view('welcome');
-    });
+
 
 
     // Route::get('no-admin', function ()
@@ -74,7 +45,7 @@ Route::group(['middleware' => ['web']], function ()
 
     Route::get('country/{id}/get-cities', ['as' => 'country.get-cities', 'uses' => 'CountryController@getCities']);
 
-    Route::auth();
+
 
     Route::group(['middleware' => ['auth', 'admin'] ], function ()
     {
